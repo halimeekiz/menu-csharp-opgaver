@@ -46,8 +46,10 @@ namespace menu_csharp_opgaver
             Console.WriteLine("╚════════════════════════════════════╝");
 
             Console.Write("Vælg (1-2): ");
-            string valg = Console.ReadLine();
 
+            string? valg = Console.ReadLine();  // Vi beder brugeren om at skrive noget og gemmer det i variablen 'valg'.
+                                                // Console.ReadLine() kan i sjældne tilfælde give null, f.eks. hvis brugeren ikke skriver noget.
+                                                // Derfor skriver vi 'string?' i stedet for 'string' – så er C# forberedt på, at der måske ikke kommer noget input.
             Console.Clear();
 
             switch (valg)

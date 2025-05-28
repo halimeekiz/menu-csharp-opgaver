@@ -127,8 +127,8 @@ namespace menu_csharp_opgaver
             Console.WriteLine("║  7. Vend tilbage til hovedmenuen   ║");
             Console.WriteLine("╚════════════════════════════════════╝");
 
-            Console.Write("Vælg opgave (1-7): ");
-            string valg = Console.ReadLine();
+            Console.Write("Vælg (1-7): ");
+            string? valg = Console.ReadLine();
 
             Console.Clear();
 

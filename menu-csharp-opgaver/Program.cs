@@ -45,7 +45,7 @@ while (kørMenu)
             ArimetiskeUdtryk.Vis();
             break;
         case "4":
-            Console.WriteLine("4");
+            VariablerIUdtryk.Vis();
             break;
         case "5":
             Console.WriteLine("5");
