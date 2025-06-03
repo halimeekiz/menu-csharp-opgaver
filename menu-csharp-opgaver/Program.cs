@@ -48,10 +48,10 @@ while (kørMenu)
             VariablerIUdtryk.Vis();
             break;
         case "5":
-            Console.WriteLine("5");
+            BoolskeVariable.Vis();
             break;
         case "6":
-            Console.WriteLine("6");
+            IfElseStatement.Vis();
             break;
         case "7":
             Console.WriteLine("7");
