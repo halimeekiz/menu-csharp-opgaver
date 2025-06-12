@@ -54,10 +54,10 @@ while (kørMenu)
             IfElseStatement.Vis();
             break;
         case "7":
-            Console.WriteLine("7");
+            SwitchCase.Vis();
             break;
         case "8":
-            Console.WriteLine("8");
+            Loops.Vis();
             break;
         case "9":
             Console.WriteLine("9");
